@@ -1,0 +1,17 @@
+{
+  "features": [
+    "area_en",
+    "prop_type_en",
+    "prop_sb_type_en",
+    "actual_area",
+    "rooms_num",
+    "has_parking",
+    "year",
+    "month"
+  ],
+  "categorical_features": [
+    "area_en",
+    "prop_type_en",
+    "prop_sb_type_en"
+  ]
+}
