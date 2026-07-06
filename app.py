@@ -43,7 +43,7 @@ with col1:
     area_en = st.selectbox("Area", options=dropdown_values['area_en'])
     prop_type_en = st.selectbox("Property Type", options=dropdown_values['prop_type_en'])
     prop_sb_type_en = st.selectbox("Property Sub-Type", options=dropdown_values['prop_sb_type_en'])
-    actual_area = st.number_input("Actual Area (sq ft)", min_value=100, max_value=50000, value=1200, step=50)
+    actual_area = st.number_input("Actual Area (sq meters)", min_value=20, max_value=600, value=90, step=5)
 
 with col2:
     rooms_num = st.number_input("Number of Rooms", min_value=0, max_value=15, value=2, step=1)
